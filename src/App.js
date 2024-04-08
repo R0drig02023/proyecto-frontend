@@ -17,7 +17,7 @@ function App() {
       <div>
         <nav>
           <ul>
-            {/* Aquí puedes añadir tus elementos de navegación si es necesario */}
+            {/* Aquí puedes añadir tus elemen si es necesario */}
           </ul>
         </nav>
 
