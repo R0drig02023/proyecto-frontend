@@ -1,0 +1,61 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titulo {
+    margin-left: -150px; /* Mueve el título fuera del margen izquierdo */
+  }
+  
+  .boton-regresar {
+    position: absolute;
+    left: 10px; /* Ajusta la posición del botón más a la izquierda */
+    top: 10px; /* Ajusta la posición del botón más arriba */
+    width: 30px; /* Reduce el ancho del botón */
+    height: 30px; /* Reduce la altura del botón */
+    font-size: 12px; /* Reduce el tamaño del texto del botón */
+  }
+  
+  .area-estacionamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Añade un margen superior para separar el área del estacionamiento del título y el botón */
+  }
+  
+  .fila {
+    display: flex;
+  }
+  
+  .cajon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .circulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .circulo.ocupado {
+    background-color: red; /* Color rojo para indicar que está ocupado */
+  }
+  
+  .circulo.libre {
+    background-color: green; /* Color verde para indicar que está libre */
+  }
+  
+  .numero {
+    margin-top: 25px;
+  }
+  

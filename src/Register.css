@@ -1,0 +1,44 @@
+/* Estilos generales para el contenedor del formulario */
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F0F0F0; /* Color de fondo */
+  }
+  
+  /* Estilos para el contenedor del formulario */
+  .register-box {
+    background-color: #DDFFBB; /* Color de fondo */
+    border: 1px solid #C7E9B0; /* Color del borde */
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título del formulario */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .form-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el botón de registro */
+  .register-button {
+    background-color: #B3C99C; /* Color de fondo del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los mensajes de error */
+  .error-message {
+    color: red;
+  }
+  
