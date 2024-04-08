@@ -1,7 +1,7 @@
 {
   "name": "proyec-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-navigation/native": "^6.1.17",
     "@testing-library/jest-dom": "^5.17.0",
@@ -42,6 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    
+  },
+  "main": "App.js",
+  "author": "Rodrigo Gael <al222211192@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
